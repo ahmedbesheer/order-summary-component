@@ -13,7 +13,7 @@ body {
 }
 
 .order {
-  margin: 100px auto;
+  margin: 6rem auto 3rem;
   width: 90%;
   max-width: 450px;
   background: #fff;
@@ -29,35 +29,37 @@ body {
 
 .order-details {
   text-align: center;
-  padding: 40px 50px;
+  padding: 3rem;
 }
 
 .order-title {
+  font-size: 1.875rem;
   font-weight: 900;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 .order-details > p {
   color: hsl(224, 23%, 55%);
+  font-size: 1.125rem;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
 }
 
 .order-plan {
   background-color: hsl(225, 100%, 98%);
   display: flex;
   align-items: center;
-  padding: 15px;
+  padding: 1.5rem;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .plan-price {
-  margin-left: 20px;
+  margin-left: 1rem;
 }
 
 .plan-price p {
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .plan-price span {
@@ -68,8 +70,8 @@ body {
 .order-plan a:visited {
   margin-left: auto;
   color: hsl(245, 75%, 52%);
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 900;
+  font-size: .875rem;
   transition: 0.2s;
 }
 
@@ -89,11 +91,12 @@ body {
   text-decoration: none;
   background-color: hsl(245, 75%, 52%);
   color: hsl(0, 0%, 100%);
-  padding: 12px;
+  padding: 1rem 1.5rem;
   border-radius: 10px;
   font-weight: 700;
-  box-shadow: 0 15px 20px hsl(244, 75%, 90%);
-  margin-bottom: 30px;
+  /* box-shadow: 0 15px 20px hsl(263, 76%, 90%); */
+  box-shadow: 0 15px 20px hsla(244, 74%, 71%, 0.4);
+  margin-bottom: 2rem;
   transition: 0.2s;
 }
 
@@ -118,7 +121,7 @@ body {
 
 .attribution {
   text-align: center;
-  padding: 25px;
+  padding: 1.5rem .75rem;
 }
 
 .attribution a:link,
@@ -139,20 +142,25 @@ body {
 
 .attribution span {
   color: hsl(0, 100%, 47%);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 @media (max-width: 450px) {
+
+  html {
+    font-size: 14px;
+  }
+
   body {
     background: url("../img/pattern-background-mobile.svg") repeat-x,
       hsl(225, 100%, 94%);
   }
 
-  .order-details {
-    padding: 20px 30px;
+  .order-plan {
+    padding: 1.142rem;
   }
 
-  .order-details > p {
-    margin-bottom: 20px;
+  .order-details {
+    padding: 2.5rem;
   }
 }
