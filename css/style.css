@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  background: url("../img/pattern-background-desktop.svg") repeat-x,
+    hsl(225, 100%, 94%);
+  background-size: contain;
+}
+
+.order {
+  margin: 100px auto;
+  width: 90%;
+  max-width: 450px;
+  background: #fff;
+  border-radius: 20px;
+  color: hsl(223, 47%, 23%);
+  box-shadow: 0px 20px 20px hsl(229, 68%, 87%);
+  overflow: hidden;
+}
+
+.order-img {
+  max-width: 100%;
+}
+
+.order-details {
+  text-align: center;
+  padding: 40px 50px;
+}
+
+.order-title {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.order-details > p {
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.order-plan {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.plan-price {
+  margin-left: 20px;
+}
+
+.plan-price p {
+  font-weight: 700;
+}
+
+.plan-price span {
+  color: hsl(224, 23%, 55%);
+}
+
+.order-plan a:link,
+.order-plan a:visited {
+  margin-left: auto;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.order-plan a:hover,
+.order-plan a:active {
+  color: hsl(244, 74%, 71%);
+  text-decoration: none;
+}
+
+.order-pay {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-pay .btn-proceed:link,
+.order-pay .btn-proceed:visited {
+  text-decoration: none;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(0, 0%, 100%);
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  box-shadow: 0 15px 20px hsl(244, 75%, 90%);
+  margin-bottom: 30px;
+  transition: 0.2s;
+}
+
+.order-pay .btn-proceed:hover,
+.order-pay .btn-proceed:active {
+  background-color: hsl(244, 74%, 71%);
+}
+
+.order-pay .btn-cancel:link,
+.order-pay .btn-cancel:visited {
+  align-self: center;
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+  transition: 0.2s;
+}
+
+.order-pay .btn-cancel:hover,
+.order-pay .btn-cancel:active {
+  color: hsl(0, 0%, 0%);
+}
+
+.attribution {
+  text-align: center;
+  padding: 25px;
+}
+
+.attribution a:link,
+.attribution a:visited {
+  color: hsl(245, 75%, 52%);
+  transition: 0.1s;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.attribution a:active,
+.attribution a:hover {
+  color: hsl(245, 69%, 47%);
+  border-bottom: none;
+}
+
+.attribution span {
+  color: hsl(0, 100%, 47%);
+  font-size: 20px;
+}
+
+@media (max-width: 450px) {
+  body {
+    background: url("../img/pattern-background-mobile.svg") repeat-x,
+      hsl(225, 100%, 94%);
+  }
+
+  .order-details {
+    padding: 20px 30px;
+  }
+
+  .order-details > p {
+    margin-bottom: 20px;
+  }
+}
