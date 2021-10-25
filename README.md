@@ -1,8 +1,4 @@
-Challanged by: Frontend Mentor
-Challenge URL: https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
+## Order summary component - Frontend Mentor Challenge
 
-Coded by: Ahmed Besheer (https://www.frontendmentor.io/profile/ahmedbesheer/)
-Author Email: ahmed.besheer14@gmail.com
-
-Live Server URL:
-https://ahmedbesheer.github.io/order-summary-component/
+- **[Challenge & Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-818kLe0XR)**.
+- **[Live Server URL](https://ahmedbesheer.github.io/order-summary-component/)**.
